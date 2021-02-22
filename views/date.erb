@@ -1,0 +1,4 @@
+<h1>Today</h1>
+<% month = Date::MONTHNAMES[Date.today.month]%>
+<% day = Date.today.strftime("%A")%>
+<p> <%= "The date is #{day}, #{month} #{DateTime.now.day}, #{DateTime.now.year}" %></p>
